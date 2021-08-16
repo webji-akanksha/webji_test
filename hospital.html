@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form>
+		<div class="container">
+			<h2 class="text-center" style="color: #00b5ef;">Add Fire Brigade</h2><br><hr><br>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="lname"> <b> Select State:<span class="badge badge-light" style="color: red;">*</span> </b></label>
+						<select class="form-control" id="s1" name="s1">
+						  <option value="select">Select State</option>
+						  <option value="Maharastra">Maharastra</option>
+						</select>
+						</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+					<label for="lname"><b> Select  District:<span class="badge badge-light" style="color: red;">*</span></b></label>
+						<select class="form-control" id="d1" name="d1" >
+						  <option value="select">Select  District</option>
+						  <option value="Amravati">Amravati</option>
+						  <option value="Wardha">Wardha</option>
+						</select>
+						</div> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+					<label for="lname"><b>Select City / Taluka  :<span class="badge badge-light" style="color: red;">*</span></b></label>
+						<select class="form-control" id="c1" name="c1">
+						  <option value="select">Select City / Taluka</option>
+						  <option value="Amravati">Amravati</option>
+						  <option value="Pulgaon">Pulgaon</option>
+						</select>
+						</div> 
+				</div>
+				<div class="col-md-6">
+					<div class="form-group">
+					<label for="lname"><b>Select Village /Town:<span class="badge badge-light" style="color: red;">*</span></b></label>
+					<select class="form-control" id="c1" name="c1">
+						  <option value="select">Select Village / Town</option>
+						  <option value="Amravati">Amravati</option>
+						  <option value="Pulgaon">Pulgaon</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="lname"><b>Add area Of Fire Brigade:<span class="badge badge-light" style="color: red;">*</span></b></label>
+						<select class="form-control" id="p1" name="p1">
+						  	<option value="select">Add area Of Fire Brigade</option>
+						  	<option value="1">Only Rural</option>
+						  	<option value="2">Only Urban</option>
+						  	<option value="3">Both Rural & Urban</option>
+						</select> 
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="lname">Fire brigade office Name (Area):<span class="badge badge-light" style="color: red;">*</span></label>
+						<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire brigade  Name"><br><br>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="lname">Fire brigade office Short Name (Area):</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire brigade Short Name"><br><br>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="lname">:Area of Fire Brigade</label>
+						<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire Brigade Area"><br><br>
+						</div>
+					</div>
+				</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="lname"><b>PIN</b>:</label>
+						<select class="form-control" id="p1" name="p1">
+						  	<option value="select">Select PIN </option>
+						  	<option value="1">Only Rural</option>
+						  	<option value="2">Only Urban</option>
+						  	<option value="3">Both Rural & Urban</option>
+						</select> 
+					</div>
+				</div>
+				<div class="col-md-6">
+						<div class="form-group">
+							<label for="lname">Address Map Link:</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Goggle Map Link"><br><br>
+						</div>
+					</div>
+			</div>
+			<div class="row">
+			<div class="col-md-4">
+						<div class="form-group">
+							<label for="lname">Fire Brigade Mobile No.:</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire Brigade Mobile No."><br><br>
+						</div>
+					</div>
+					<div class="form-group">
+  							<div class="col-md-12">
+    						<button id="add-more" name="add-more" class="btn btn-primary">Add More</button>
+  							</div>
+						</div>
+							<br>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-6">
+						<div class="form-group">
+							<label for="lname">Fire Brigade Mobile No.:</label><br>
+							<select class="form-control" id="p1" name="p1">
+						  	<option value="select">Select STD </option>
+						  	<option value="1">Only Rural</option>
+						  	<option value="2">Only Urban</option>
+						  	<option value="3">Both Rural & Urban</option>
+						</select> 		
+						</div>
+			</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="lname">Fire Brigade Mobile No.:</label><br>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire Brigade Mobile No."><br><br>
+						</div>
+					</div>
+				</div>
+			</div>
+					<div class="form-group">
+  							<div class="col-md-12">
+    						<button id="add-more" name="add-more" class="btn btn-primary">Add More</button>
+  							</div>
+						</div>
+							<br>
+				</div>
+				<div class="row">
+			<div class="col-md-9">
+						<div class="form-group">
+							<label for="lname">Fire Brigade E-mail.:</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire Brigade E-mail."><br><br>
+						</div>
+					</div>
+					<div class="form-group">
+  							<div class="col-md-12">
+    						<button id="add-more" name="add-more" class="btn btn-primary">Add More</button>
+  							</div>
+						</div>
+							<br><br>
+		</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+						<div class="form-group">
+							<label for="lname">Fire Brigade Code(FB):</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire Brigade E-mail."><br><br>
+						</div>
+					</div>
+					<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-4">
+						<div class="form-group">
+							<label for="lname">Establish Day:</label><br>
+							<select class="form-control" id="p1" name="p1">
+						  	<option value="select">Select Day </option>
+						  	<option value="1">Only Rural</option>
+						  	<option value="2">Only Urban</option>
+						  	<option value="3">Both Rural & Urban</option>
+						</select> 		
+						</div>
+					</div>
+						<div class="col-md-4">
+						<div class="form-group">
+							<label for="lname">Establish Month:</label><br>
+							<select class="form-control" id="p1" name="p1">
+						  	<option value="select">Select Month </option>
+						  	<option value="1">Only Rural</option>
+						  	<option value="2">Only Urban</option>
+						  	<option value="3">Both Rural & Urban</option>
+						</select> 		
+						</div>
+					</div>
+						<div class="col-md-4">
+						<div class="form-group">
+							<label for="lname">Establish Year:</label><br>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Year"><br><br>
+						</div> 
+						</div>
+					</div>		
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="form-group">
+							<label for="lname">Name Of Staff Member:</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Name"><br><br>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group">
+							<label for="lname">Post Of staff:</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Post"><br><br>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group">
+							<label for="lname">Mob Of Satff:</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Mob No."><br><br>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="form-group">
+							<label for="lname">Email of Staff Member:</label>
+							<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter E-mail."><br><br>
+						</div>
+					</div>
+  							<div class="col-md-2">
+  								<div class="form-group">
+    							<button id="add-more" name="add-more" class="btn btn-primary">Add More</button>
+  								</div>
+							</div><br>
+				</div>
+			</div>
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="lname">Fire Brigade Website Link:</label>
+						<input type="text" style="width: 100%;" id="h1" name="h1" placeholder="Enter Fire Brigade Area"><br><br>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="row">
+			<div class="form-group">
+ 					<label class="col-md-12 control-label" for="action_json">Upload File Here</label>
+  					<div class="col-md-12">
+              	<input type="file" id="action_json" name="action_json" class="input-file" accept=".txt,.json" style="width: 100%">
+     			<div id="action_jsondisplay"></div>
+  				</div>
+			</div>
+			<div class="form-group">
+			  <div class="col-md-12">
+			    <button id="add-more" name="add-more" class="btn btn-primary" style="">Add More</button>
+			  </div>
+			</div>
+			<br><br>
+		</div>
+</div>
+</form>
+</body>
+</html>
